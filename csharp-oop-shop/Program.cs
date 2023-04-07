@@ -13,7 +13,8 @@ namespace csharp_oop_shop
                 $"La Descrizione del tuo prodotto: {prod1.Descrizione} \n " +
                 $"Il prezzo senza iva: ${prod1.Prezzo} \n " +
                 $"L'iva del prodotto: {prod1.Iva}% \n " +
-                $"Il prezzo con l'iva: ${prod1.PrezzoIva()}"
+                $"Il prezzo con l'iva: ${prod1.PrezzoIva()} \n " +
+                $"Il nome completo: {prod1.NomeCompleto()}"
                 );
 
 

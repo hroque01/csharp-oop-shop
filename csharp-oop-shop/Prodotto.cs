@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
@@ -43,6 +44,12 @@ namespace csharp_oop_shop
             return PrezzoIva;
         }
 
+        //Metodo per concatenare Codice+Nome
+        public string NomeCompleto()
+        {
+            return codice.ToString() + nome;
+           
+        }
 
 
         //GET & SET
