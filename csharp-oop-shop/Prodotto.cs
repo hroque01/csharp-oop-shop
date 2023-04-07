@@ -51,6 +51,16 @@ namespace csharp_oop_shop
            
         }
 
+        //Metodo per creare il padding
+        public string CodicePadding()
+        {
+            return codice.ToString().PadLeft(8, '0');  
+        }
+
+        public string NomeCodiceZero()
+        {
+            return CodicePadding() + " " + Nome;
+        }
 
         //GET & SET
         public int Codice { get { return codice; } }

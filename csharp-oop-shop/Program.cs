@@ -14,7 +14,9 @@ namespace csharp_oop_shop
                 $"Il prezzo senza iva: ${prod1.Prezzo} \n " +
                 $"L'iva del prodotto: {prod1.Iva}% \n " +
                 $"Il prezzo con l'iva: ${prod1.PrezzoIva()} \n " +
-                $"Il nome completo: {prod1.NomeCompleto()}"
+                $"Il nome completo: {prod1.NomeCompleto()} \n " +
+                $"-------BONUS------- \n" +
+                $"Il codice con il padding: {prod1.CodicePadding()}"
                 );
 
 
