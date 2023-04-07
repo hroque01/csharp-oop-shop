@@ -22,7 +22,7 @@ namespace csharp_oop_shop
 
             //Array ESERCIZIO BONUS
             Prodotto[] prodottiBelli = new Prodotto[] { 
-                new Prodotto("Parmalat Latte", "Stupendo bellissimo Buonissimo", 1.50m, 22),
+                new Prodotto("XBOX", "Strumento abbastanza brutto", 499.99m, 22),
                 new Prodotto("Sushi", "Shushi bellissimo giapponese", 8.00m , 22),
                 new Prodotto("Gocciole", "Giocciole buonissime al gusto di caccao", 3.00m , 22),
                 new Prodotto("PS5", "Console schifoso", 600, 22),
