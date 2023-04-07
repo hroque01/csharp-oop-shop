@@ -33,6 +33,13 @@ namespace csharp_oop_shop
             Random rnd = new Random();
             return rnd.Next(50,999);
         }
+
+        //GET & SET
+        public string Nome { get { return nome; } set { nome = value; } }
+        public string Descrizione { get {  return descrizione; } set {  descrizione = value; } }
+        public decimal Prezzo { get { return prezzo;  } set { prezzo = value; } }
+        public int Iva { get {  return iva; } set {  iva = value; } }
        
     }
 }
+ 
